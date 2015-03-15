@@ -4,7 +4,7 @@ export ARCH=arm
 export SUBARCH=arm
 export CROSS_COMPILE=arm-eabi-
 
-make msm8226_defconfig
+make falcon_defconfig
 
 make -j4
 
